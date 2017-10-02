@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace ShopJN.Areas.Admin.Controllers
+{
+    public class MenuTypeController : BaseController
+    {
+        // GET: Admin/MenuType
+        public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Create()
+        {
+            return View();
+        }
+    }
+}

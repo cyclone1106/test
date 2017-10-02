@@ -1,0 +1,14 @@
+﻿@model List<Models.EF.Menu>
+
+<div class="call">
+    <p> Hot line: <span class="number">01237454104</span></p>
+</div>
+<div class="account_desc">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li> <a href="@item.Link" target="@item.Target">@item.Text</a></li>
+        }
+    </ul>
+</div>
+<div class="clear"></div>
